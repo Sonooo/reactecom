@@ -20,7 +20,7 @@ export default function Dualinfoblock({heading}) {
                     </div>
                     <div className="col-4">
                     <div className="card bg-dark" >
-  <img src="https://cdn.pixabay.com/photo/2019/08/29/09/05/helenium-4438586__340.jpg" className="card-img-top" alt="image goes here"/>
+  <img src="https://cdn.pixabay.com/photo/2019/08/29/09/05/helenium-4438586__340.jpg" className="card-img-top" alt="img goes here"/>
   <div className="card-body">
     <h5 className="card-title text-white">just click photos</h5>
     <p className="card-text text-white">
