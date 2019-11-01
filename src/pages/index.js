@@ -14,8 +14,8 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
    <HeroSection 
      img={data.img.childImageSharp.fluid}
-   title=" I write Code"
-   subtitle="ecommerce project in reactjs"
+   title=" "
+   subtitle=""
    heroclass="hero-background"
    />
    <Infoblock heading="About Us" />
@@ -25,7 +25,7 @@ const IndexPage = ({data}) => (
 )
 export const query = graphql`
 {
-  img: file(relativePath: { eq: "heromain.png" }) {
+  img: file(relativePath: { eq: "Group 2.png" }) {
      childImageSharp {
        fluid(maxWidth: 400, maxHeight: 250) {
         ...GatsbyImageSharpFluid_tracedSVG
