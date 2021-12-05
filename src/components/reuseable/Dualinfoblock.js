@@ -18,7 +18,7 @@ export default function Dualinfoblock({heading}) {
 
                         </p>
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4">
                     <div className="card bg-dark" >
   <img src="https://cdn.pixabay.com/photo/2019/08/29/09/05/helenium-4438586__340.jpg" className="card-img-top" alt="img goes here"/>
   <div className="card-body">
